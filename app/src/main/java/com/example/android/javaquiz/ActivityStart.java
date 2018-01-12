@@ -49,12 +49,12 @@ public class ActivityStart extends AppCompatActivity {
 
                     if (nameEditText.getText().toString().equalsIgnoreCase(noNameOrEmail)) {
 
-                        Toast toast = Toast.makeText(getApplicationContext(), "Please Enter A Name!", Toast.LENGTH_SHORT);
+                        Toast toast = Toast.makeText(getApplicationContext(), R.string.please_enter_a_name, Toast.LENGTH_SHORT);
                         toast.show();
 
                     } else if (emailEditText.getText().toString().equalsIgnoreCase(noNameOrEmail))  {
 
-                        Toast toast = Toast.makeText(getApplicationContext(), "Please Enter An Email!", Toast.LENGTH_SHORT);
+                        Toast toast = Toast.makeText(getApplicationContext(), R.string.please_enter_an_email, Toast.LENGTH_SHORT);
                         toast.show();
 
 
@@ -66,7 +66,7 @@ public class ActivityStart extends AppCompatActivity {
 
                 } else {
 
-                    Toast toast = Toast.makeText(getApplicationContext(), "Please Agree To The Terms & Conditions!", Toast.LENGTH_SHORT);
+                    Toast toast = Toast.makeText(getApplicationContext(), R.string.please_agree_to, Toast.LENGTH_SHORT);
                     toast.show();
 
                 }

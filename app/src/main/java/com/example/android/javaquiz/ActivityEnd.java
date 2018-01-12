@@ -33,15 +33,15 @@ public class ActivityEnd extends AppCompatActivity {
 
         // Changing TextView text to the name
         TextView nameEndTextView = (TextView) findViewById(R.id.nameTextView);
-        nameEndTextView.setText("Name: " + name);
+        nameEndTextView.setText(getString(R.string.name) + name);
 
         // Changing TextView text to the email
         TextView emailEndTextView = (TextView) findViewById(R.id.emailTextView);
-        emailEndTextView.setText("Email: " + email);
+        emailEndTextView.setText(getString(R.string.email) + email);
 
         // Changing TextView text to the score
         TextView scoreEndTextView = (TextView) findViewById(R.id.scoreTextView);
-        scoreEndTextView.setText(score + "/8");
+        scoreEndTextView.setText(score + getString(R.string.slash_8));
 
         // Initializing btnNextScreen and btnEmailResults objects
         Button btnNextScreen = (Button) findViewById(R.id.startAgainButton);
