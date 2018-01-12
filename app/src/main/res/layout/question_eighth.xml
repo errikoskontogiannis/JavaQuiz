@@ -20,7 +20,7 @@
             android:id="@+id/question8Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Question 8:"
+            android:text="@string/question_8"
             android:textColor="@color/colorAccent"
             android:textSize="24sp"/>
 
@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Tick the code snippets without errors"
+            android:text="@string/tick_the_code_snippets_without_errors"
             android:textSize="16sp"/>
 
         <CheckBox
@@ -37,32 +37,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="boolean name = true;" />
+            android:text="@string/boolean_name_true" />
 
         <CheckBox
             android:id="@+id/question8Answer2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="RadioGroup name = (RadioGroup) findViewById(R.id.id);" />
+            android:text="@string/radiogroup_name_radiogroup_findviewbyid_r_id_id" />
 
         <CheckBox
             android:id="@+id/question8Answer3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="int name = 10" />
+            android:text="@string/int_name_10" />
 
         <CheckBox
             android:id="@+id/question8Answer4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="name.settext(text);" />
+            android:text="@string/name_settext_text" />
 
         <Button
             android:id="@+id/submitButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Submit"
+            android:text="@string/submit"
             android:background="@color/colorAccent"/>
 
     </LinearLayout>

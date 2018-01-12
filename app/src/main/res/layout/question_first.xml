@@ -20,7 +20,7 @@
             android:id="@+id/question1Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Question 1:"
+            android:text="@string/question_1"
             android:textColor="@color/colorAccent"
             android:textSize="24sp"/>
 
@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Choose the appropriate data type for this value: female"
+            android:text="@string/choose_the_appropriate_data_type_for_this_value_female"
             android:textSize="16sp"/>
 
         <RadioGroup
@@ -42,25 +42,25 @@
                 android:id="@+id/question1Answer1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Boolean" />
+                android:text="@string/booleanstring" />
 
             <RadioButton
                 android:id="@+id/question1Answer2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Double" />
+                android:text="@string/doublestring" />
 
             <RadioButton
                 android:id="@+id/question1Answer3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Int" />
+                android:text="@string/intstring" />
 
             <RadioButton
                 android:id="@+id/question1Answer4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Char" />
+                android:text="@string/charstring" />
 
         </RadioGroup>
 
@@ -69,7 +69,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Next"
+            android:text="@string/next"
             android:background="@color/colorAccent"/>
 
     </LinearLayout>

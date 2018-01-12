@@ -20,7 +20,7 @@
             android:id="@+id/question2Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Question 2:"
+            android:text="@string/question_2"
             android:textColor="@color/colorAccent"
             android:textSize="24sp"/>
 
@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Tick the code snippets with errors"
+            android:text="@string/tick_the_code_snippets_with_errors"
             android:textSize="16sp"/>
 
         <CheckBox
@@ -37,32 +37,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="int name = 7;" />
+            android:text="@string/int_name_7" />
 
         <CheckBox
             android:id="@+id/question2Answer2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="EditText = (EditText) findViewById(R.id.id)" />
+            android:text="@string/edittext_edittext_findviewbyid_r_id_id" />
 
         <CheckBox
             android:id="@+id/question2Answer3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="if eggs > 10 {...}" />
+            android:text="@string/if_eggs_10" />
 
         <CheckBox
             android:id="@+id/question2Answer4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Toast name = Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT);" />
+            android:text="@string/toast_name_toast_maketext_getapplicationcontext_text_toast_length_short" />
 
         <Button
             android:id="@+id/nextButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Next"
+            android:text="@string/next"
             android:background="@color/colorAccent"/>
 
     </LinearLayout>

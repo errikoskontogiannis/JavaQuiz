@@ -20,7 +20,7 @@
             android:id="@+id/question4Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Question 4:"
+            android:text="@string/question_4"
             android:textColor="@color/colorAccent"
             android:textSize="24sp" />
 
@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Which of the following always need a Capital letter?"
+            android:text="@string/which_of_the_following_always_need_a_capital_letter"
             android:textSize="16sp" />
 
         <RadioGroup
@@ -42,25 +42,25 @@
                 android:id="@+id/question4Answer1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Data Types and Fields" />
+                android:text="@string/data_types_and_fields" />
 
             <RadioButton
                 android:id="@+id/question4Answer2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Fields and Strings" />
+                android:text="@string/fields_and_strings" />
 
             <RadioButton
                 android:id="@+id/question4Answer3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Objects and Class Names" />
+                android:text="@string/objects_and_class_names" />
 
             <RadioButton
                 android:id="@+id/question4Answer4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Class Names and Strings" />
+                android:text="@string/class_names_and_strings" />
         </RadioGroup>
 
         <Button
@@ -69,7 +69,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:background="@color/colorAccent"
-            android:text="Next" />
+            android:text="@string/next" />
 
     </LinearLayout>
 

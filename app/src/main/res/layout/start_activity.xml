@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/logo"
             android:layout_marginTop="8dp"
-            android:hint="Full Name"
+            android:hint="@string/full_name"
             android:textColor="@color/colorAccent"
             android:textColorHint="@color/colorAccent" />
 
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/nameEditText"
             android:layout_marginTop="8dp"
-            android:hint="Email"
+            android:hint="@string/email"
             android:textColor="@color/colorAccent"
             android:textColorHint="@color/colorAccent" />
 
@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/emailEditText"
             android:layout_marginTop="8dp"
-            android:text="I Agree To The Terms &amp; Conditions"
+            android:text="@string/i_agree_to_the_terms_amp_conditions"
             android:textColor="@color/colorAccent" />
 
         <Button
@@ -59,7 +59,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="8dp"
             android:background="@color/colorAccent"
-            android:text="Start Quiz" />
+            android:text="@string/start_quiz" />
 
     </RelativeLayout>
 

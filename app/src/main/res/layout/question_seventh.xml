@@ -20,7 +20,7 @@
             android:id="@+id/question7Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Question 7:"
+            android:text="@string/question_7"
             android:textColor="@color/colorAccent"
             android:textSize="24sp"/>
 
@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="What is the main function of any variable?"
+            android:text="@string/what_is_the_main_function_of_any_variable"
             android:textSize="16sp"/>
 
         <RadioGroup
@@ -42,25 +42,25 @@
                 android:id="@+id/question7Answer1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="To Print Words on the Screen" />
+                android:text="@string/to_print_words_on_the_screen" />
 
             <RadioButton
                 android:id="@+id/question7Answer2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="To Add Numbers Together" />
+                android:text="@string/to_add_numbers_together" />
 
             <RadioButton
                 android:id="@+id/question7Answer3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="To Keep Track of Data in the Memory of the Computer" />
+                android:text="@string/to_keep_track_of_data_in_the_memory_of_the_computer" />
 
             <RadioButton
                 android:id="@+id/question7Answer4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="To Write Java Codes" />
+                android:text="@string/to_write_java_codes" />
         </RadioGroup>
 
         <Button
@@ -68,7 +68,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Next"
+            android:text="@string/next"
             android:background="@color/colorAccent"/>
 
     </LinearLayout>

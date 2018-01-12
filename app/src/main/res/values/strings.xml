@@ -1,3 +1,55 @@
 <resources>
     <string name="app_name">JavaQuiz</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="i_agree_to_the_terms_amp_conditions"><![CDATA[I Agree To The Terms & Conditions]]></string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="your_score">Your Score:</string>
+    <string name="_0_8">0/8</string>
+    <string name="start_again">Start Again</string>
+    <string name="email_results">Email Results</string>
+    <string name="question_1">Question 1:</string>
+    <string name="choose_the_appropriate_data_type_for_this_value_female">Choose the appropriate data type for this value: female</string>
+    <string name="booleanstring">Boolean</string>
+    <string name="doublestring">Double</string>
+    <string name="intstring">Int</string>
+    <string name="charstring">Char</string>
+    <string name="next">Next</string>
+    <string name="question_2">Question 2:</string>
+    <string name="tick_the_code_snippets_with_errors">Tick the code snippets with errors</string>
+    <string name="int_name_7">int name = 7;</string>
+    <string name="edittext_edittext_findviewbyid_r_id_id">EditText = (EditText) findViewById(R.id.id)</string>
+    <string name="if_eggs_10"><![CDATA[if eggs > 10 {...}]]></string>
+    <string name="toast_name_toast_maketext_getapplicationcontext_text_toast_length_short">Toast name = Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT);</string>
+    <string name="boolean_syntax">Boolean Syntax</string>
+    <string name="what_is_the_syntax_of_a_boolean_in_java_please_use_name_for_the_name_and_true_for_the_value">What is the syntax of a Boolean in Java? (Please use name for the name and true for the value)</string>
+    <string name="question_3">Question 3:</string>
+    <string name="class_names_and_strings">Class Names and Strings</string>
+    <string name="objects_and_class_names">Objects and Class Names</string>
+    <string name="fields_and_strings">Fields and Strings</string>
+    <string name="data_types_and_fields">Data Types and Fields</string>
+    <string name="which_of_the_following_always_need_a_capital_letter">Which of the following always need a Capital letter?</string>
+    <string name="question_4">Question 4:</string>
+    <string name="question_5">Question 5:</string>
+    <string name="tick_the_correct_java_objects">Tick the correct Java Objects</string>
+    <string name="radiogroup">RadioGroup</string>
+    <string name="textfield">TextField</string>
+    <string name="checkboxgroup">CheckBoxGroup</string>
+    <string name="imageview">ImageView</string>
+    <string name="question_6">Question 6:</string>
+    <string name="what_is_the_syntax_of_a_textview_object_in_java_please_use_name_for_the_name_and_id_for_the_id">What is the syntax of a TextView Object in Java? (Please use name for the name and id for the id)</string>
+    <string name="textview_object">TextView Object</string>
+    <string name="question_7">Question 7:</string>
+    <string name="what_is_the_main_function_of_any_variable">What is the main function of any variable?</string>
+    <string name="to_print_words_on_the_screen">To Print Words on the Screen</string>
+    <string name="to_add_numbers_together">To Add Numbers Together</string>
+    <string name="to_keep_track_of_data_in_the_memory_of_the_computer">To Keep Track of Data in the Memory of the Computer</string>
+    <string name="to_write_java_codes">To Write Java Codes</string>
+    <string name="question_8">Question 8:</string>
+    <string name="submit">Submit</string>
+    <string name="tick_the_code_snippets_without_errors">Tick the code snippets without errors</string>
+    <string name="boolean_name_true">boolean name = true;</string>
+    <string name="radiogroup_name_radiogroup_findviewbyid_r_id_id">RadioGroup name = (RadioGroup) findViewById(R.id.id);</string>
+    <string name="int_name_10">int name = 10</string>
+    <string name="name_settext_text">name.settext(text);</string>
 </resources>

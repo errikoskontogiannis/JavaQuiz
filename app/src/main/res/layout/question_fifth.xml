@@ -20,7 +20,7 @@
             android:id="@+id/question5Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Question 5:"
+            android:text="@string/question_5"
             android:textColor="@color/colorAccent"
             android:textSize="24sp"/>
 
@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Tick the correct Java Objects"
+            android:text="@string/tick_the_correct_java_objects"
             android:textSize="16sp"/>
 
         <CheckBox
@@ -37,32 +37,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="RadioGroup" />
+            android:text="@string/radiogroup" />
 
         <CheckBox
             android:id="@+id/question5Answer2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextField" />
+            android:text="@string/textfield" />
 
         <CheckBox
             android:id="@+id/question5Answer3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CheckBoxGroup" />
+            android:text="@string/checkboxgroup" />
 
         <CheckBox
             android:id="@+id/question5Answer4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ImageView" />
+            android:text="@string/imageview" />
 
         <Button
             android:id="@+id/nextButton5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Next"
+            android:text="@string/next"
             android:background="@color/colorAccent"/>
 
     </LinearLayout>

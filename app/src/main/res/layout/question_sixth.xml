@@ -20,7 +20,7 @@
             android:id="@+id/question6Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Question 6:"
+            android:text="@string/question_6"
             android:textColor="@color/colorAccent"
             android:textSize="24sp" />
 
@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="What is the syntax of a TextView Object in Java? (Please use name for the name and id for the id)"
+            android:text="@string/what_is_the_syntax_of_a_textview_object_in_java_please_use_name_for_the_name_and_id_for_the_id"
             android:textSize="16sp" />
 
         <EditText
@@ -37,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:hint="TextView Object"
+            android:hint="@string/textview_object"
             android:textColorHint="@color/colorAccent"
             android:textColor="@color/colorAccent"/>
 
@@ -46,7 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Next"
+            android:text="@string/next"
             android:background="@color/colorAccent"/>
 
     </LinearLayout>
