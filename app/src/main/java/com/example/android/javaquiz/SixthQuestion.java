@@ -10,7 +10,7 @@ import android.widget.EditText;
 public class SixthQuestion extends AppCompatActivity {
     // Initializing Variables
     int score = 0;
-    String answer = "boolean name = true;";
+    String answer = "TextView name = (TextView) findViewById(R.id.id);";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
