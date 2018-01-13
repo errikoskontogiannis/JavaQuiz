@@ -28,7 +28,7 @@
             android:id="@+id/question5Text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/question5_dimen"
             android:text="@string/tick_the_correct_java_objects"
             android:textSize="16sp"/>
 
@@ -36,7 +36,7 @@
             android:id="@+id/question5Answer1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/checkbox2_dimen"
             android:text="@string/radiogroup" />
 
         <CheckBox
@@ -61,7 +61,7 @@
             android:id="@+id/nextButton5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/nextbutton5_dimen"
             android:text="@string/next"
             android:background="@color/colorAccent"/>
 

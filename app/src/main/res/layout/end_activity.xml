@@ -20,6 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/fullname2_dimen"
             android:text="@string/full_name"
             android:textColor="@color/colorAccent"
             android:textSize="24sp"/>
@@ -30,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/nameTextView"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/email2_dimen"
             android:text="@string/email"
             android:textColor="@color/colorAccent"
             android:textSize="24sp"/>
@@ -41,7 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/emailTextView"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/yourscore_dimen"
             android:text="@string/your_score"
             android:textSize="24sp"/>
 
@@ -51,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/yourScoreTextView"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/score_dimen"
             android:text="@string/_0_8"
             android:textColor="@color/colorAccent"
             android:textSize="24sp"/>
@@ -62,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/scoreTextView"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/startagainbutton_dimen"
             android:text="@string/start_again"
             android:background="@color/colorAccent"/>
 
@@ -72,7 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/startAgainButton"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/emailbutton_dimen"
             android:text="@string/email_results"
             android:background="@color/colorAccent"/>
 

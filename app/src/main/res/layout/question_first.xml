@@ -28,7 +28,7 @@
             android:id="@+id/question1Text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/question1_dimen"
             android:text="@string/choose_the_appropriate_data_type_for_this_value_female"
             android:textSize="16sp"/>
 
@@ -36,7 +36,7 @@
             android:id="@+id/question1RadioButtonGroup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="@dimen/radiogroup1_dimen">
 
             <RadioButton
                 android:id="@+id/question1Answer1"
@@ -68,7 +68,7 @@
             android:id="@+id/nextButton1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/nextbutton1_dimen"
             android:text="@string/next"
             android:background="@color/colorAccent"/>
 

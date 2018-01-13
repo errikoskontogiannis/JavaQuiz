@@ -28,7 +28,7 @@
             android:id="@+id/question7Text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/question7_dimen"
             android:text="@string/what_is_the_main_function_of_any_variable"
             android:textSize="16sp"/>
 
@@ -36,7 +36,7 @@
             android:id="@+id/question7RadioButtonGroup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="@dimen/radiogroup3_dimen">
 
             <RadioButton
                 android:id="@+id/question7Answer1"
@@ -67,7 +67,7 @@
             android:id="@+id/nextButton7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/nextbutton7_dimen"
             android:text="@string/next"
             android:background="@color/colorAccent"/>
 

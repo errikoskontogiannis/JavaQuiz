@@ -28,7 +28,7 @@
             android:id="@+id/question4Text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/question4_dimen"
             android:text="@string/which_of_the_following_always_need_a_capital_letter"
             android:textSize="16sp" />
 
@@ -36,7 +36,7 @@
             android:id="@+id/question4RadioButtonGroup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="@dimen/radiogroup2_dimen">
 
             <RadioButton
                 android:id="@+id/question4Answer1"
@@ -67,7 +67,7 @@
             android:id="@+id/nextButton4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/nextbutton4_dimen"
             android:background="@color/colorAccent"
             android:text="@string/next" />
 

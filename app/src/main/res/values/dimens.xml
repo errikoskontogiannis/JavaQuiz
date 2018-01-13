@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="activity_vertical_margin">16dp</dimen>>
-    <dimen name="activity_horizontal_margin">16dp</dimen>>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="fullname_dimen">8dp</dimen>
+    <dimen name="email_dimen">8dp</dimen>
+    <dimen name="terms_dimen">8dp</dimen>
+    <dimen name="startbutton_dimen">8dp</dimen>
+    <dimen name="emailbutton_dimen">8dp</dimen>
+    <dimen name="startagainbutton_dimen">8dp</dimen>
+    <dimen name="score_dimen">8dp</dimen>
+    <dimen name="yourscore_dimen">8dp</dimen>
+    <dimen name="fullname2_dimen">8dp</dimen>
+    <dimen name="email2_dimen">8dp</dimen>
+    <dimen name="nextbutton1_dimen">8dp</dimen>
+    <dimen name="radiogroup1_dimen">8dp</dimen>
+    <dimen name="question1_dimen">8dp</dimen>
+    <dimen name="question2_dimen">8dp</dimen>
+    <dimen name="checkbox1_dimen">8dp</dimen>
+    <dimen name="nextbutton2_dimen">8dp</dimen>
+    <dimen name="question3_dimen">8dp</dimen>
+    <dimen name="edittext1_dimen">8dp</dimen>
+    <dimen name="nextbutton3_dimen">8dp</dimen>
+    <dimen name="question4_dimen">8dp</dimen>
+    <dimen name="radiogroup2_dimen">8dp</dimen>
+    <dimen name="nextbutton4_dimen">8dp</dimen>
+    <dimen name="question5_dimen">8dp</dimen>
+    <dimen name="checkbox2_dimen">8dp</dimen>
+    <dimen name="nextbutton5_dimen">8dp</dimen>
+    <dimen name="question6_dimen">8dp</dimen>
+    <dimen name="edittext2_dimen">8dp</dimen>
+    <dimen name="nextbutton6_dimen">8dp</dimen>
+    <dimen name="nextbutton7_dimen">8dp</dimen>
+    <dimen name="question8_dimen">8dp</dimen>
+    <dimen name="checkbox3_dimen">8dp</dimen>
+    <dimen name="submitbutton_dimen">8dp</dimen>
+    <dimen name="radiogroup3_dimen">8dp</dimen>
+    <dimen name="question7_dimen">8dp</dimen>>
 </resources>

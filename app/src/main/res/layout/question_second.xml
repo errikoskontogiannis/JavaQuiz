@@ -28,7 +28,7 @@
             android:id="@+id/question2Text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/question2_dimen"
             android:text="@string/tick_the_code_snippets_with_errors"
             android:textSize="16sp"/>
 
@@ -36,7 +36,7 @@
             android:id="@+id/question2Answer1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/checkbox1_dimen"
             android:text="@string/int_name_7" />
 
         <CheckBox
@@ -61,7 +61,7 @@
             android:id="@+id/nextButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/nextbutton2_dimen"
             android:text="@string/next"
             android:background="@color/colorAccent"/>
 

@@ -28,7 +28,7 @@
             android:id="@+id/question8Text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/question8_dimen"
             android:text="@string/tick_the_code_snippets_without_errors"
             android:textSize="16sp"/>
 
@@ -36,7 +36,7 @@
             android:id="@+id/question8Answer1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/checkbox3_dimen"
             android:text="@string/boolean_name_true" />
 
         <CheckBox
@@ -61,7 +61,7 @@
             android:id="@+id/submitButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/submitbutton_dimen"
             android:text="@string/submit"
             android:background="@color/colorAccent"/>
 

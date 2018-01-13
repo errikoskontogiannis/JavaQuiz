@@ -28,7 +28,7 @@
             android:id="@+id/question6Text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/question6_dimen"
             android:text="@string/what_is_the_syntax_of_a_textview_object_in_java_please_use_name_for_the_name_and_id_for_the_id"
             android:textSize="16sp" />
 
@@ -36,7 +36,7 @@
             android:id="@+id/question6Answer1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/edittext2_dimen"
             android:hint="@string/textview_object"
             android:textColorHint="@color/colorAccent"
             android:textColor="@color/colorAccent"/>
@@ -45,7 +45,7 @@
             android:id="@+id/nextButton6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/nextbutton6_dimen"
             android:text="@string/next"
             android:background="@color/colorAccent"/>
 
