@@ -9,7 +9,7 @@ import android.widget.CheckBox;
 
 public class SecondQuestion extends AppCompatActivity {
     // Initializing Variables
-    int score = 0;
+    int score = Utility.score;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

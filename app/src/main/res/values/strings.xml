@@ -52,10 +52,4 @@
     <string name="radiogroup_name_radiogroup_findviewbyid_r_id_id">RadioGroup name = (RadioGroup) findViewById(R.id.id);</string>
     <string name="int_name_10">int name = 10</string>
     <string name="name_settext_text">name.settext(text);</string>
-    <string name="please_enter_a_name">Please Enter A Name!</string>
-    <string name="please_enter_an_email">Please Enter An Email!</string>
-    <string name="please_agree_to"><![CDATA[Please Agree To The Terms & Conditions!]]></string>
-    <string name="name">Name:</string>
-    <string name="email_">Email:</string>
-    <string name="slash_8">/8</string>
 </resources>

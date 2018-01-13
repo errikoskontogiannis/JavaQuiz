@@ -9,8 +9,8 @@ import android.widget.EditText;
 
 public class ThirdQuestion extends AppCompatActivity {
     // Initializing Variables
-    int score = 0;
-    String answer = "boolean name = true;";
+    int score = Utility.score;
+    String answer = Utility.boolean_object_answer;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

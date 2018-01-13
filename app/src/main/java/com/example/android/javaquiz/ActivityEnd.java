@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -28,20 +27,20 @@ public class ActivityEnd extends AppCompatActivity {
         score = bundle.getInt("score");
 
         // Editing the two Strings now that we have the data from the previous Activity
-        results_email_subject = ("JavaQuiz Results For " + name);
-        message = ("Name: " + name + "\nEmail: " + email + "\nYour Score:" + "\n" + score + "/8");
+        results_email_subject = (Utility.javaquiz_results_for + name);
+        message = (Utility.name_ + name + "\n" + Utility.email_ + email + "\n" + Utility.your_score + "\n" + score + Utility.slash_8);
 
         // Changing TextView text to the name
         TextView nameEndTextView = (TextView) findViewById(R.id.nameTextView);
-        nameEndTextView.setText(getString(R.string.name) + name);
+        nameEndTextView.setText(Utility.name_ + name);
 
         // Changing TextView text to the email
         TextView emailEndTextView = (TextView) findViewById(R.id.emailTextView);
-        emailEndTextView.setText(getString(R.string.email) + email);
+        emailEndTextView.setText(Utility.email_ + email);
 
         // Changing TextView text to the score
         TextView scoreEndTextView = (TextView) findViewById(R.id.scoreTextView);
-        scoreEndTextView.setText(score + getString(R.string.slash_8));
+        scoreEndTextView.setText(score + Utility.slash_8);
 
         // Initializing btnNextScreen and btnEmailResults objects
         Button btnNextScreen = (Button) findViewById(R.id.startAgainButton);

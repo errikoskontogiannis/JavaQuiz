@@ -9,8 +9,8 @@ import android.widget.EditText;
 
 public class SixthQuestion extends AppCompatActivity {
     // Initializing Variables
-    int score = 0;
-    String answer = "TextView name = (TextView) findViewById(R.id.id);";
+    int score = Utility.score;
+    String answer = Utility.textview_object_answer;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

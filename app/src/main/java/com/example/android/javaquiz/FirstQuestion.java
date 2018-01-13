@@ -9,7 +9,7 @@ import android.widget.RadioButton;
 
 public class FirstQuestion extends AppCompatActivity {
     // Initializing Variables
-    int score = 0;
+    int score = Utility.score;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
