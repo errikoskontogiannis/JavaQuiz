@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class ActivityEnd extends AppCompatActivity {
     // Initializing Variables
-    int score = 0;
+    int score = Utility.score;
     String results_email_subject = "";
     String message = "";
 

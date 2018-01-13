@@ -14,7 +14,7 @@ public class ActivityStart extends AppCompatActivity {
     EditText nameEditText;
     EditText emailEditText;
     String noNameOrEmail = "";
-    int score = 0;
+    int score = Utility.score;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
